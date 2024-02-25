@@ -35,7 +35,7 @@ p {
 
 #item1 {
     float: right;
-    margin: 0px 42px 0px 0px;
+    margin: 0px 48px 0px 0px;
     background-color: #fca249;
     border: 1px solid black;
     width: 180px;
@@ -49,7 +49,7 @@ p {
 
 #item2 {
     float: right;
-    margin: 0px 42px 0px 0px;
+    margin: 0px 48px 0px 0px;
     background-color: #c51801;
     border: 1px solid black;
     width: 180px;
@@ -63,7 +63,7 @@ p {
 
 #item3 {
     float: right;
-    margin: 0px 42px 0px 0px;
+    margin: 0px 48px 0px 0px;
     background-color: #fc496b;
     border: 1px solid black;
     width: 180px;
