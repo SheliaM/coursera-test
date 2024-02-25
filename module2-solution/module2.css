@@ -24,7 +24,7 @@ h1 {
 #item1 {
     position: absolute;
     top: 0;
-    left: 200px;
+    left: 300px;
     bottom: 0;
     background-color: #fca249;
     border: 1px solid black;
@@ -39,7 +39,7 @@ h1 {
 #item2 {
     position: absolute;
     top: 0;
-    left: 612px;
+    left: 712px;
     background-color: #c51801;
     border: 1px solid black;
     width: 180px;
@@ -53,7 +53,7 @@ h1 {
 #item3 {
     position: absolute;
     top: 0;
-    left: 1022px;
+    left: 1122px;
     background-color: #fc496b;
     border: 1px solid black;
     width: 180px;
