@@ -21,17 +21,7 @@ h1 {
   left: 10px;
 }
 
-p {
-  position: relative;
-  left: 10px;
-  background-color: #BCBEB8;
-  border: 1px solid black;
-  width: 90%;
-  height: 180px;
-  padding: 50px 1px 10px 10px;
-  font-family: Trebuchet MS;
-  color: black;
-}
+
 
 #item1 {
     float: right;
@@ -75,7 +65,17 @@ p {
     z-index: 10;
 }
 
-
+p {
+  position: relative;
+  left: 10px;
+  background-color: #BCBEB8;
+  border: 1px solid black;
+  width: 90%;
+  height: 180px;
+  padding: 50px 1px 10px 10px;
+  font-family: Trebuchet MS;
+  color: black;
+}
 
 
 
