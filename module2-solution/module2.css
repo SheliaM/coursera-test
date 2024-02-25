@@ -5,6 +5,8 @@ body {
 /****************Base Styles*****************/
 *{
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 /*******************************************/
 
@@ -15,17 +17,17 @@ h1 {
 
 #column1 {
   position: relative;
-  top: 60px;
+  top: 50px;
   left: 10px;
 }
 
 #item1 {
     position: absolute;
-    top: 52px;
-    margin-left: 290px;
+    top: 0;
+    left: 200px;
     background-color: #fca249;
     border: 1px solid black;
-    width: 30%;
+    width: 180px;
     height: 35px;
     text-align: center;
     vertical-align: middle;
@@ -33,29 +35,10 @@ h1 {
     padding: 10px 10px 0 10px;
 }
 
-p {
-  position: relative;
-  background-color: #BCBEB8;
-  border: 1px solid black;
-  width: 90%;
-  height: 180px;
-  padding: 50px 1px 10px 10px;
-  font-family: Trebuchet MS;
-  color: black;
-}
-
-
-
-
-
-
-
 #item2 {
     position: absolute;
-    margin-left: 270px;
-    margin-right: 19px;
-    margin-bottom: 0;
-    margin-top: 60px;
+    top: 0;
+    left: 612px;
     background-color: #c51801;
     border: 1px solid black;
     width: 180px;
@@ -67,11 +50,9 @@ p {
 }
 
 #item3 {
-    position: relative;
-    margin-left: 270px;
-    margin-right: 19px;
-    margin-bottom: 0;
-    margin-top: 60px;
+    position: absolute;
+    top: 0;
+    left: 1022px;
     background-color: #fc496b;
     border: 1px solid black;
     width: 180px;
@@ -80,6 +61,18 @@ p {
     vertical-align: middle;
     font-size: 80%;
     padding: 10px 10px 0 10px;
+}
+
+p {
+  position: relative;
+  left: 10px;
+  background-color: #BCBEB8;
+  border: 1px solid black;
+  width: 90%;
+  height: 180px;
+  padding: 50px 1px 10px 10px;
+  font-family: Trebuchet MS;
+  color: black;
 }
 
 
