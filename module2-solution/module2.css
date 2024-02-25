@@ -14,9 +14,23 @@ h1 {
 }
 
 #column1 {
-  position: absolute;
+  position: relative;
   top: 60px;
   left: 10px;
+}
+
+#item1 {
+    position: absolute;
+    top: 52px;
+    margin-left: 290px;
+    background-color: #fca249;
+    border: 1px solid black;
+    width: 30%;
+    height: 35px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 80%;
+    padding: 10px 10px 0 10px;
 }
 
 p {
@@ -30,19 +44,7 @@ p {
   color: black;
 }
 
-#item1 {
-    position: relative;
-    top: 52px;
-    margin-left: 290px;
-    background-color: #fca249;
-    border: 1px solid black;
-    width: 30%;
-    height: 35px;
-    text-align: center;
-    vertical-align: middle;
-    font-size: 80%;
-    padding: 10px 10px 0 10px;
-}
+
 
 
 
