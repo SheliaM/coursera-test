@@ -4,6 +4,7 @@ body {
   background-color: #4682b4;
   font-family: 'Oxygen', sans-serif;
   border-radius: 0;
+  box-sizing: border-box;
 }
 
 /** HEADER **/
@@ -24,7 +25,7 @@ body {
   text-transform: uppercase;
   font-weight: bold;
   text-shadow: 1px 1px 1px #222;
-  margin-left: 0;
+  margin-left: 5px;
   margin-top: 0;
   margin-bottom: 0;
   line-height: .75;
@@ -66,20 +67,33 @@ body {
 }
 /* END HEADER */
 
-/********** Large devices only **********/
-@media (min-width: 1200px) {
+/* MENU ITEMS */
 
+#tile {
+  position: reltiave;
+  background-color: #BCBEB8;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+  width: 100%;
+  margin: 0 auto 15px;
 }
+
+#title-heading {
+  position: absolute;
+  text-align: center;
+  font-size: 1.6em;
+  background-color: #000;
+  color: #fff;
+  
+}
+
+
+
 
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
   /* Header */
-  #logo-img {
-    background: url('../images/restaurant-logo_medium.png') no-repeat;
-    width: 100px;
-    height: 100px;
-    margin: 5px 5px 5px 0;
-  }
+  
   /* End Header */
 }
 
