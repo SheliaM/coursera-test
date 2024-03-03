@@ -61,7 +61,8 @@ body {
 /* MENU ITEMS */
 
 #menu-items {
-  margin:20px 30px 20px 30px;
+  position: relative;
+  margin:20px;
 }
 #menu {
   font-size: 1.8em;
@@ -78,15 +79,11 @@ h2 {
 }
 
 #tile {
-  position: center;
-  top: 20px;
-  left: 60px;
+  position: relative;
   background-color: #BCBEB8;
   border: 2px solid #3F0C1F;
   overflow: hidden;
   width: 100%;
-  padding:0 0 20px 0;
-  margin: 15px auto 15px;
 }
 
 #tile-heading span {
@@ -109,6 +106,8 @@ h2 {
   /* Header */
   
   /* End Header */
+
+
 }
 
 /********** Small devices only **********/
