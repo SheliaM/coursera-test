@@ -2,7 +2,7 @@ body {
   font-size: 16px;
   color: #fff;
   background-color: #4682b4;
-  font-family: 'Oxygen', sans-serif;
+  font-family: 'Oxygen', san-serif;
   border-radius: 0;
   box-sizing: border-box;
 }
@@ -19,7 +19,7 @@ body {
 }
 
 .navbar-brand h1 { /* company name */
-  font-family: 'Lora', serif;
+  font-family: 'Oxygen', san-serif;
   color: #fff;
   font-size: 1.5em;
   text-transform: uppercase;
@@ -49,20 +49,6 @@ body {
   font-size: 1.8em;
 }
 
-
-#menu {
-  font-size: 1.2em;
-  font-weight: bold;
-}
-
-#menu-tiles {
-  color: #fafafa;
-  text-align: center;
-  padding: 20px;
-}
-#content {
-  font-size: .75em;
-}
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
   border: 1px solid #61122f;
 }
@@ -74,12 +60,32 @@ body {
 
 /* MENU ITEMS */
 
+#menu-items {
+  margin:20px 30px 20px 30px;
+}
+#menu {
+  font-size: 1.8em;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 1.2em;
+ } 
+
+#content {
+  font-size: .75em;
+  margin: auto 10px auto 10px;
+}
+
 #tile {
-  position: relative;
+  position: center;
+  top: 20px;
+  left: 60px;
   background-color: #BCBEB8;
   border: 2px solid #3F0C1F;
   overflow: hidden;
-  width: 100%;
+  width: 90%;
+  padding:0 0 20px 0;
   margin: 15px auto 15px;
 }
 
@@ -89,12 +95,12 @@ body {
   right: 0;
   width: 100%;
   text-align: center;
-  font-size: .8em;
   background-color: #000;
   color: #fff;
   opacity: .8;
 }
-
+#top {
+  margin-left: 10px;
 
 
 
