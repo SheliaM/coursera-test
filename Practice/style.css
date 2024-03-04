@@ -15,3 +15,11 @@ body {
   width: 100%;
   margin:auto;
 }
+#section3 {
+  position: absolute;
+  background-color: #BCBEB8;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+  width: 100%;
+  margin:auto;
+}
