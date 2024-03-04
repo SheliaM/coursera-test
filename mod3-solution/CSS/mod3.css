@@ -62,7 +62,26 @@ body {
 
 #menu-items {
   position: relative;
- 
+}
+
+#tile {
+  position: absolute;
+  background-color: #BCBEB8;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+  width: 100%;
+  margin:auto;
+}
+
+#tile-heading span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
 }
 #menu {
   font-size: 1.8em;
@@ -78,42 +97,7 @@ h2 {
   margin: auto 10px auto 10px;
 }
 
-#chicken {
-  position: absolute;
-  background-color: #BCBEB8;
-  border: 2px solid #3F0C1F;
-  overflow: hidden;
-  width: 100%;
-  margin:auto;
-}
 
-#beef {
-  position: absolute;
-  background-color: #BCBEB8;
-  border: 2px solid #3F0C1F;
-  overflow: hidden;
-  width: 100%;
-  margin:auto;
-}
-
-#sushi {
-  position: absolute;
-  background-color: #BCBEB8;
-  border: 2px solid #3F0C1F;
-  overflow: hidden;
-  width: 100%;
-  margin:auto;
-}
-#tile-heading span {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  width: 100%;
-  text-align: center;
-  background-color: #000;
-  color: #fff;
-  opacity: .8;
-}
 #top {
   margin-left: 10px;
 }
