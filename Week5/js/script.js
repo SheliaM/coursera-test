@@ -8,8 +8,8 @@ function sayHello () {
    var message = "<h2>Hello " + name + "!</h2>";
 
   // document
-  //   .getElementById("content")
-  //   .textContent = message;
+  //  .getElementById("content")
+  //  .textContent = message;
 
   document
     .getElementById("content")
@@ -20,7 +20,7 @@ function sayHello () {
       document
         .querySelector("#title")
         .textContent;
-    title += " & Lovin' it!";
+    title += " & Lovin' It!";
     document
         .querySelector("h1")
         .textContent = title;
